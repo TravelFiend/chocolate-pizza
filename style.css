@@ -8,8 +8,11 @@ body {
 body {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     flex-direction: column;
+    width: 100%;
+}
+
+footer {
     width: 100%;
 }
 
@@ -20,9 +23,10 @@ body {
 
 .gray-bar {
     height: 20px;
-    width: 80%;
+    width: 100%;
     border: none;
     background-image: url('./assets/hr-img.png');
+    margin: 35px 0;
 }
 
 header,
@@ -31,9 +35,19 @@ footer {
     width: 85%;
 }
 
+h3 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0;
+}
+
 button {
-    height: 30px;
-    width: 90px;
+    height: 50px;
+    width: 150px;
+    background: rgb(187, 86, 78);
+    color: white;
+    text-align: right;
 }
 
 header {
@@ -42,8 +56,8 @@ header {
     margin-top: 50px;
 }
 
-.spaced-icon {
-    margin-left: 10px;
+#spaced-icon {
+    margin-left: 12px;
 }
 
 #header-left {
@@ -53,4 +67,36 @@ header {
 
 ul {
     background-image: url('./assets/list-bg.png');
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Comic Sans MS';
+    box-shadow: 0 5px 10px rgb(187, 187, 187);;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#main-img {
+    text-align: center;
+    width: 100%;
+}
+
+#sub-head-gray {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: rgb(158, 158, 158);
+}
+
+#copyright {
+    text-align: center;
+    color: rgb(158, 158, 158);
+}
+
+p {
+    color: gray;
 }
