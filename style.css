@@ -18,7 +18,11 @@ footer {
 
 #footer-top {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
+    color: rgb(85, 85, 85);
+    margin-bottom: 80px;
 }
 
 .gray-bar {
@@ -35,7 +39,7 @@ footer {
     width: 85%;
 }
 
-h3 {
+.caps {
     font-family: sans-serif;
     text-transform: uppercase;
     font-weight: 300;
@@ -47,13 +51,14 @@ button {
     width: 150px;
     background: rgb(187, 86, 78);
     color: white;
-    text-align: right;
+    text-align: center;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    height: 100px;
 }
 
 #spaced-icon {
@@ -62,7 +67,7 @@ header {
 
 #header-left {
     display: flex;
-
+    align-items: center;
 }
 
 ul {
@@ -77,6 +82,12 @@ li {
     display: flex;
     flex-direction: column;
     width: 50%;
+    color: rgb(80, 80, 80);
+}
+
+input {
+    display: inline-flex;
+    flex-direction: row;
 }
 
 #main-img {
@@ -95,8 +106,63 @@ li {
 #copyright {
     text-align: center;
     color: rgb(158, 158, 158);
+    margin-top: 60px;
 }
 
-p {
+.main-text {
     color: gray;
+    text-indent: 30px;
+}
+
+h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+    margin: 0;
+    position: relative;
+}
+
+#knork {
+    height: 60px;
+}
+
+input[type=checkbox]:checked+label {
+    text-decoration: line-through;
+}
+
+#pizza-title {
+    margin-bottom: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+
+#sub {
+    padding-left: 10px;
+}
+
+#top-left {
+    display: flex;
+    justify-content: center;
+}
+
+#van {
+    height: 70px;
+    margin-right: 20px;
+}
+
+h6 {
+    display: flex;
+    flex-direction: row;
+}
+
+h6:before,
+h6:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #DDDDDD;
+    ;
+    margin: auto;
+}
+
+#small-logo {
+    margin: 10px;;
 }
