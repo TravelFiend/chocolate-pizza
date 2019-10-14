@@ -75,7 +75,8 @@ ul {
     display: flex;
     justify-content: space-between;
     font-family: 'Comic Sans MS';
-    box-shadow: 0 5px 10px rgb(187, 187, 187);;
+    box-shadow: 0 5px 10px rgb(187, 187, 187);
+    padding: 35px 0;
 }
 
 li {
@@ -83,6 +84,7 @@ li {
     flex-direction: column;
     width: 50%;
     color: rgb(80, 80, 80);
+    line-height: 30px;
 }
 
 input {
