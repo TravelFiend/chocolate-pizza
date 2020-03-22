@@ -1,0 +1,170 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    ;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+#footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: rgb(85, 85, 85);
+    margin-bottom: 80px;
+}
+
+.gray-bar {
+    height: 20px;
+    width: 100%;
+    border: none;
+    background-image: url('./assets/hr-img.png');
+    margin: 35px 0;
+}
+
+header,
+main,
+footer {
+    width: 85%;
+}
+
+.caps {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    background: rgb(187, 86, 78);
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 100px;
+}
+
+#spaced-icon {
+    margin-left: 12px;
+}
+
+#header-left {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    background-image: url('./assets/list-bg.png');
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Comic Sans MS';
+    box-shadow: 0 5px 10px rgb(187, 187, 187);
+    padding: 35px 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: rgb(80, 80, 80);
+    line-height: 30px;
+}
+
+input {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#main-img {
+    text-align: center;
+    width: 100%;
+}
+
+#sub-head-gray {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: rgb(158, 158, 158);
+}
+
+#copyright {
+    text-align: center;
+    color: rgb(158, 158, 158);
+    margin-top: 60px;
+}
+
+.main-text {
+    color: gray;
+    text-indent: 30px;
+}
+
+h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+    margin: 0;
+    position: relative;
+}
+
+#knork {
+    height: 60px;
+}
+
+input[type=checkbox]:checked+label {
+    text-decoration: line-through;
+}
+
+#pizza-title {
+    margin-bottom: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+
+#sub {
+    padding-left: 10px;
+}
+
+#top-left {
+    display: flex;
+    justify-content: center;
+}
+
+#van {
+    height: 70px;
+    margin-right: 20px;
+}
+
+h6 {
+    display: flex;
+    flex-direction: row;
+}
+
+h6:before,
+h6:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #DDDDDD;
+    ;
+    margin: auto;
+}
+
+#small-logo {
+    margin: 10px;;
+}
